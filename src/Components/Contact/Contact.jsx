@@ -51,7 +51,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Whatsapp</h3>
                         <span className="contact__card-data">999-888-777</span>
 
-                        <a href="" className="contact__button" rel="noopener noreferrer" >Write me
+                        <a href="#" className="contact__button" rel="noopener noreferrer" >Write me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                         <h3 className="contact__card-title">Messenger</h3>
                         <span className="contact__card-data">user.fb123</span>
 
-                        <a href="" className="contact__button" rel="noopener noreferrer">Write me
+                        <a href="#" className="contact__button" rel="noopener noreferrer">Write me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
