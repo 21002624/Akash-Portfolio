@@ -56,7 +56,8 @@ const Data = () => {
         </h1>
         <h3 className='home__subtitle'>Mern Developer</h3>
         <p className="home__description">
-            i created and designed this website by my self and i love codeing
+        A self developed, confident individual with a keen interest for
+        grabbing knowledge.
         </p>
         <a href="#contact" className="button bitton--flex">
                 Say Hello

@@ -3,31 +3,31 @@ import React from 'react'
 const Backend = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Frontend Developer</h3>
+        <h3 className="skills__title">Programming Languages</h3>
 
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">name</h3>
+                        <h3 className="skills__name">C</h3>
                         <span className="skills__level">level</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">name</h3>
+                        <h3 className="skills__name">C++</h3>
                         <span className="skills__level">level</span>
                     </div>
                 </div>
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">name</h3>
                         <span className="skills__level">level</span>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
@@ -44,11 +44,11 @@ const Backend = () => {
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">name</h3>
+                        <h3 className="skills__name">Java</h3>
                         <span className="skills__level">level</span>
                     </div>
                 </div>
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">name</h3>
@@ -61,7 +61,7 @@ const Backend = () => {
                         <h3 className="skills__name">name</h3>
                         <span className="skills__level">level</span>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>

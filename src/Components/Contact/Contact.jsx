@@ -46,24 +46,26 @@ const Contact = () => {
 
 
                     <div className="contact__card">
-                        <i className="bx bxl-whatsapp contact__card-icon"></i>
+                    <i class="uil uil-linkedin contact__card-icon"></i>
+                        {/* <i className="bx bxl-whatsapp contact__card-icon"></i> */}
 
-                        <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">999-888-777</span>
+                        <h3 className="contact__card-title">Linkedin</h3>
+                        <span className="contact__card-data">im-akasharul</span>
 
-                        <a href="mailto:akasharul2407@gmail.com.com" className="contact__button" rel="noopener noreferrer" >Write me
+                        <a href="https://www.linkedin.com/in/im-akasharul/" className="contact__button" rel="noopener noreferrer" >Write me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
 
 
                     <div className="contact__card">
-                        <i className="bx bxl-messenger contact__card-icon"></i>
+                    <i class="uil uil-phone-volume contact__card-icon "></i>
+                        {/* <i className="bx bxl-messenger contact__card-icon"></i> */}
 
-                        <h3 className="contact__card-title">Messenger</h3>
-                        <span className="contact__card-data">user.fb123</span>
+                        <h3 className="contact__card-title">Call Me</h3>
+                        <span className="contact__card-data">+91</span>
 
-                        <a href="mailto:akasharul2407@gmail.com.com" className="contact__button" rel="noopener noreferrer">Write me
+                        <a href="tel:9962514125" className="contact__button" rel="noopener noreferrer">Call me
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>

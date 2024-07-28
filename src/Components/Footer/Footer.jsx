@@ -27,7 +27,7 @@ const Footer = () => {
                 </a>
 
                 <a href="https://www.linkedin.com/in/im-akasharul/" className="footer__social-link" rel="noopener noreferrer" target="_blank">
-                    <i class="uil uil-dribbble"></i>
+                    <i class="uil uil-linkedin"></i>
                 </a>
 
                 <a href="https://github.com/21002624" className="footer__social-link" rel="noopener noreferrer" target="_blank">
