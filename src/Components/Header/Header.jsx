@@ -96,20 +96,28 @@ const Header = () => {
 
             <li className="nav__item">
               
-              <a className='switch'>
+
                 <CustomizedSwitches />
-              </a>
+              
             </li>
 
 
           </ul>
 
-          <i className='uil uil-times nav__close' onClick={() => setToggle(!toggle)}></i>
+
+          
+          <div>
+            <i className='uil uil-times nav__close' onClick={() => setToggle(!toggle)}></i>
+          </div>
+
         </div>
 
         <div className="nav__toggle" onClick={() => setToggle(!toggle)}>
-          <i className='uil uil-apps'></i>
+          <i className='uil uil-apps'> </i>
         </div>
+
+
+
       </nav>
     </header>
   );
