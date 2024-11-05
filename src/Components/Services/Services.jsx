@@ -40,7 +40,7 @@ const Services = () => {
                                 }}
                             ></iframe>
                             <div className="check">
-                                <a href='https://amaze-ecomm.netlify.app/' target='_blank' rel="noopener">
+                                <a href='https://amaze-ecomm.netlify.app/' target='_blank' rel="noopener noreferrer">
                                 <h3>Check out</h3>
                                 <i className="uil uil-arrow-up-right services__icon"></i>
                                 </a>
@@ -74,7 +74,7 @@ const Services = () => {
                                 }}
                             ></iframe>
                             <div className="check">
-                                <a href='https://akazh-portfolio.netlify.app/' target='_blank' rel="noopener">
+                                <a href='https://akazh-portfolio.netlify.app/' target='_blank' rel="noopener noreferrer">
                                 <h3>Check out</h3>
                                 <i className="uil uil-arrow-up-right services__icon"></i>
                                 </a>
@@ -108,7 +108,7 @@ const Services = () => {
                                 }}
                             ></iframe>
                             <div className="check">
-                                <a href='https://community-app-rv9k.onrender.com/login' target='_blank' rel="noopener">
+                                <a href='https://community-app-rv9k.onrender.com/login' target='_blank' rel="noopener noreferrer">
                                 <h3>Check out</h3>
                                 <i className="uil uil-arrow-up-right services__icon"></i>
                                 </a>
@@ -143,7 +143,7 @@ const Services = () => {
                             ></iframe>
 
                             <div className="check">
-                                <a href='https://blockchain-evoting.netlify.app/' target='_blank' rel="noopener">
+                                <a href='https://blockchain-evoting.netlify.app/' target='_blank' rel="noopener noreferrer">
                                 <h3>Check out</h3>
                                 <i className="uil uil-arrow-up-right services__icon"></i>
                                 </a>
