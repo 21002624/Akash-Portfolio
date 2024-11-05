@@ -27,6 +27,11 @@
     column-gap: 2rem;
 }
 
+.nav__menu ul{
+    justify-content: center;
+    align-items: center;
+}
+
 .nav__link{
     display: flex;
     flex-direction: column;
@@ -60,6 +65,9 @@
     .header{
         top: initial;
         bottom: 0;
+    }
+    .switch{
+        display: none;
     }
 
     .nav{

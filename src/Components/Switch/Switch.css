@@ -1,0 +1,7 @@
+body.dark-theme {
+    --title-color: hsl(0, 0%, 98%);
+    --title-color-dark: hsl(0, 0%, 80%);
+    --text-color: hsl(0, 0%, 80%);
+    --body-color: hsl(0, 0%, 10%);
+    --container-color: #333;
+  }

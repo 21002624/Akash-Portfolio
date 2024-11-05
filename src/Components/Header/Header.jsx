@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Header.css";
+import CustomizedSwitches from '../Switch/Switch';
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -92,6 +93,15 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
+
+            <li className="nav__item">
+              
+              <a className='switch'>
+                <CustomizedSwitches />
+              </a>
+            </li>
+
+
           </ul>
 
           <i className='uil uil-times nav__close' onClick={() => setToggle(!toggle)}></i>
