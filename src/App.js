@@ -8,7 +8,7 @@ import Qualification from './Components/Qualification/Qualification';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/Scrollup/Scrollup';
-import WebsiteReviewBox from './Components/Project/Project';
+
 function App() {
   return (
     <>

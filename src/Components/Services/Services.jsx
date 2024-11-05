@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Services.css';
-import WebsiteReviewBox from '../Project/Project';
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
