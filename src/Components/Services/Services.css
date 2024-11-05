@@ -64,11 +64,12 @@
 }
 
 .services__model-content{
-    width: 500px;
+    width: 800px;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
+    margin-top: 100px;
 }
 
 .services__model-close{
@@ -115,6 +116,16 @@
     font-size: var(--small-font-size);
 }
 
+.check a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.check .services__icon{
+    margin-bottom: 0px;
+}
+
 /*===========active model================*/
 .active-model{
     opacity: 1;
@@ -136,11 +147,15 @@
     }
 
     .services__content{
-        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+        padding: 2rem 0.5rem 1.25rem 1.5rem;
     }
 
     .services__icon{
         font-size: 1.5rem;
+    }
+
+    .services__model-content{
+        margin-top: -100px;
     }
   }
   

@@ -17,38 +17,35 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">React<br /> Projects</h3>
+                        <h3 className="services__title">Amaze Ecom Web Application</h3>
                     </div>
 
-                    {/* <span className="services__button" onClick={() => toggleTab(1)}>View More
+                    <span className="services__button" onClick={() => toggleTab(1)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
-                    </span> */}
+                    </span>
 
                     <div className={toggleState === 1 ? "services__model active-model" : "services__model"}>
                         <div className="services__model-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__model-close"></i>
 
-                            <h3 className="services__model-title">Product <br /> Designer</h3>
-                            <p className="services__model-description">Yet to add</p>
+                            <h3 className="services__model-title">Amaze Ecom Web Application</h3>
 
-                            <ul className="services__model-services grid">
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                            </ul>
+                            <iframe 
+                                src="https://amaze-ecomm.netlify.app/" 
+                                title="Amaze Bazaar" 
+                                style={{ 
+                                    width: '100%', // Adjust width to fit your design
+                                    height: '300px', // Adjust height as needed
+                                    border: 'none' // Remove default border
+                                }}
+                            ></iframe>
+                            <div className="check">
+                                <a href='https://amaze-ecomm.netlify.app/' target='_blank' rel="noopener">
+                                <h3>Check out</h3>
+                                <i className="uil uil-arrow-up-right services__icon"></i>
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -56,7 +53,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Mern<br /> Projects</h3>
+                        <h3 className="services__title">React Portfolio</h3>
                     </div>
                     <span className="services__button" onClick={() => toggleTab(2)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
@@ -66,27 +63,23 @@ const Services = () => {
                         <div className="services__model-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__model-close"></i>
 
-                            <h3 className="services__model-title">Web <br /> Developer</h3>
-                            <p className="services__model-description">Yet to add</p>
-
-                            <ul className="services__model-services grid">
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                            </ul>
+                            <h3 className="services__model-title">React Portfolio</h3>
+                            <iframe 
+                                src="https://akazh-portfolio.netlify.app/" 
+                                title="Amaze Bazaar" 
+                                style={{ 
+                                    width: '100%', // Adjust width to fit your design
+                                    height: '300px', // Adjust height as needed
+                                    border: 'none' // Remove default border
+                                }}
+                            ></iframe>
+                            <div className="check">
+                                <a href='https://akazh-portfolio.netlify.app/' target='_blank' rel="noopener">
+                                <h3>Check out</h3>
+                                <i className="uil uil-arrow-up-right services__icon"></i>
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -94,7 +87,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">DSA <br /> Projects</h3>
+                        <h3 className="services__title">Community Mern Application</h3>
                     </div>
                     <span className="services__button" onClick={() => toggleTab(3)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
@@ -104,30 +97,62 @@ const Services = () => {
                         <div className="services__model-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__model-close"></i>
 
-                            <h3 className="services__model-title">Graphic <br /> Designer</h3>
-                            <p className="services__model-description">Yet to add</p>
-
-                            <ul className="services__model-services grid">
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                                <li className="services__model-service">
-                                    <i className="uil uil-check-circle services__model-icon"></i>
-                                    <p className="services__model-info">Yet to add</p>
-                                </li>
-                            </ul>
+                            <h3 className="services__model-title">Community Mern Application</h3>
+                            <iframe 
+                                src="https://community-app-rv9k.onrender.com/login" 
+                                title="Amaze Bazaar" 
+                                style={{ 
+                                    width: '100%', 
+                                    height: '300px', 
+                                    border: 'none' 
+                                }}
+                            ></iframe>
+                            <div className="check">
+                                <a href='https://community-app-rv9k.onrender.com/login' target='_blank' rel="noopener">
+                                <h3>Check out</h3>
+                                <i className="uil uil-arrow-up-right services__icon"></i>
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-edit services__icon"></i>
+                        <h3 className="services__title">Blockchain Evoting System</h3>
+                    </div>
+                    <span className="services__button" onClick={() => toggleTab(3)}>View More
+                        <i className="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+
+                    <div className={toggleState === 3 ? "services__model active-model" : "services__model"}>
+                        <div className="services__model-content">
+                            <i onClick={() => toggleTab(0)} className="uil uil-times services__model-close"></i>
+
+                            <h3 className="services__model-title">Blockchain Evoting System</h3>
+                            <iframe 
+                                src="https://blockchain-evoting.netlify.app/" 
+                                title="Amaze Bazaar" 
+                                style={{ 
+                                    width: '100%', 
+                                    height: '300px', 
+                                    border: 'none' 
+                                }}
+                            ></iframe>
+
+                            <div className="check">
+                                <a href='https://blockchain-evoting.netlify.app/' target='_blank' rel="noopener">
+                                <h3>Check out</h3>
+                                <i className="uil uil-arrow-up-right services__icon"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
