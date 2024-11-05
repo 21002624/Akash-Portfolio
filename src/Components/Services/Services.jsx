@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Services.css';
+import WebsiteReviewBox from '../Project/Project';
 
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
@@ -19,9 +20,10 @@ const Services = () => {
                         <i className="uil uil-web-grid services__icon"></i>
                         <h3 className="services__title">React<br /> Projects</h3>
                     </div>
-                    <span className="services__button" onClick={() => toggleTab(1)}>View More
+
+                    {/* <span className="services__button" onClick={() => toggleTab(1)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
-                    </span>
+                    </span> */}
 
                     <div className={toggleState === 1 ? "services__model active-model" : "services__model"}>
                         <div className="services__model-content">
