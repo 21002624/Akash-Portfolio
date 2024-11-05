@@ -123,11 +123,11 @@ const Services = () => {
                         <i className="uil uil-edit services__icon"></i>
                         <h3 className="services__title">Blockchain Evoting System</h3>
                     </div>
-                    <span className="services__button" onClick={() => toggleTab(3)}>View More
+                    <span className="services__button" onClick={() => toggleTab(4)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={toggleState === 3 ? "services__model active-model" : "services__model"}>
+                    <div className={toggleState === 4 ? "services__model active-model" : "services__model"}>
                         <div className="services__model-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__model-close"></i>
 
