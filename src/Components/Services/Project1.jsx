@@ -8,7 +8,7 @@ const Project1 = () => {
         <div className="imgContainer">
             <img className='projectImg' src={img} alt='img' />
             <a 
-            href="https://amaze-ecomm.netlify.app/" target='_blank' 
+            href="https://amaze-ecomm.netlify.app/" target="_blank" without rel="noreferrer"
             className="button button--flex" 
             style={{
                 display: 'flex',
