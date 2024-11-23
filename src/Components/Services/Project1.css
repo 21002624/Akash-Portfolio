@@ -23,6 +23,17 @@
 .projectDetailsContainer{
     width: 25rem;
 }
+.smallText{
+    display: none;
+    font-size: var(--small-font-size);
+    padding: .4rem;
+    margin-top: 1rem;
+}
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
 @media screen and (max-width: 992px) {
     .projectContainer{
         flex-direction: column;
@@ -30,13 +41,21 @@
 }
 @media screen and (max-width: 576px) {
     .projectDetailsContainer{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        display: none;
+    }
+    .imgContainer{
+        height: 500px;
+    }
+    .smallText{
+        display: block;
     }
 }
 @media screen and (max-width: 350px) {
-    .projectDetailsContainer{
-        padding-left: 3rem;
-        padding-right: 2rem;
+    .imgContainer{
+        height: 500px;
+    }
+    .projectContainer{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }

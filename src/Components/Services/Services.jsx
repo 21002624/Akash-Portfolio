@@ -8,7 +8,7 @@ const Services = () => {
     return (
         <section>
             <h2 className="section__title">Projects</h2>
-            <span className="section__subtitle">My technical level</span>
+            <span className="section__subtitle">My Personal Projects</span>
             <Project1 />
         </section>
     );
