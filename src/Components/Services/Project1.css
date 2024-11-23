@@ -1,0 +1,42 @@
+.projectImg{
+    width: 20rem;
+    border-radius: 1rem;
+}
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    align-items: center;
+    justify-content: start;
+    padding-top: 1rem;
+    width: 350px;
+    height: 400px;
+}
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.projectDetailsContainer{
+    width: 25rem;
+}
+@media screen and (max-width: 992px) {
+    .projectContainer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .projectDetailsContainer{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .projectDetailsContainer{
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+}
