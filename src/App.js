@@ -8,10 +8,15 @@ import Qualification from './Components/Qualification/Qualification';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/Scrollup/Scrollup';
+import CanvasEffect from './Components/CanvasEffect/CanvasEffect';
 
 function App() {
   return (
     <>
+    <CanvasEffect />
+    <div className="content-wrapper">
+
+   
     <Header />
 
     <main className='main'>
@@ -24,10 +29,11 @@ function App() {
       
       <Contact />
       
-      
     </main>
     <Footer />
     <Scrollup />
+    </div>
+    
     </>
   );
 }
