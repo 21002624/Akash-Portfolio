@@ -4,12 +4,12 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1>
-          <a>
+          <p>
             <img
               src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=50&width=500&height=70&color=000000&duration=4000&lines=Hey+There!+👋;+I'm+Akash!;"
               alt="Typing SVG Animation"
             />
-          </a>
+          </p>
       </h1>
         <h3 className='home__subtitle'>Mern Developer</h3>
         <p className="home__description">
