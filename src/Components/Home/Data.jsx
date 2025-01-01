@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">Akash Arul
+        {/* <h1 className="home__title">Akash Arul
         <svg
                   width="36"
                   height="36"
@@ -53,7 +53,15 @@ const Data = () => {
                     fill="#EBA352"
                   ></path>
         </svg>
-        </h1>
+        </h1> */}
+        <h1>
+          <a href="#">
+            <img
+              src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=50&width=500&height=70&color=000000&duration=4000&lines=Hey+There!+👋;+I'm+Akash!;"
+              alt="Typing SVG Animation"
+            />
+          </a>
+      </h1>
         <h3 className='home__subtitle'>Mern Developer</h3>
         <p className="home__description">
         A self developed, confident individual with a keen interest for
