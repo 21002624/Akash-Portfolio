@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Scrollup from './Components/Scrollup/Scrollup';
 import CanvasEffect from './Components/CanvasEffect/CanvasEffect';
+import Certificate from './Components/Certificate/Certificate';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Skills />
       
       <Services />
+      <Certificate />
       
       <Contact />
       
