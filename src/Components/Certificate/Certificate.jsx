@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Certificate.css';
 import { AiOutlineClose } from 'react-icons/ai';
-import { FaReact, FaJsSquare, FaDatabase, FaPython, FaGoogle, FaWindows,FaJava,FaGlobe } from 'react-icons/fa';  // Importing React Icons
+import {  FaPython, FaGoogle, FaWindows,FaJava,FaGlobe } from 'react-icons/fa';  
 
 import dataScience from '../../assets/Data_science_certificate.pdf' 
 import Google_AI_Essentials from '../../assets/Google_AI_Essentials.pdf' 
@@ -10,26 +10,26 @@ import  java from '../../assets/java.pdf'
 import  web from '../../assets/web.pdf'
 
 const Certificate = () => {
-  // Define the certificates with the icon, name, and local PDF file paths
+
   const certificates = [
     { name: 'Web Developer', icon: <FaGlobe size={50} color="#61DBFB" />, url: web },
     { name: 'Java Expert', icon: <FaJava size={50} color="#FF4F00" />, url: java }, 
     { name: 'Google Advanced Data Analytics', icon: <FaPython size={50} color="#3776AB" />, url: dataScience },
-    { name: 'Google AI Certification', icon: <FaGoogle size={50} color="#4285F4" />, url: Google_AI_Essentials}, // Google AI
-    { name: 'Microsoft Azure Certification', icon: <FaWindows size={50} color="#0078D4" />, url: Microsoft_Azure }, // Microsoft Azure
+    { name: 'Google AI Certification', icon: <FaGoogle size={50} color="#4285F4" />, url: Google_AI_Essentials}, 
+    { name: 'Microsoft Azure Certification', icon: <FaWindows size={50} color="#0078D4" />, url: Microsoft_Azure }, 
   ];
 
-  // State to hold the selected certificate URL and modal visibility
+
   const [selectedCertificate, setSelectedCertificate] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Function to handle certificate click
+
   const handleCertificateClick = (url) => {
     setSelectedCertificate(url);
-    setIsModalOpen(true);  // Open the modal
+    setIsModalOpen(true);  
   };
 
-  // Function to close the modal
+
   const closeModal = () => {
     setIsModalOpen(false);
   };
@@ -48,19 +48,19 @@ const Certificate = () => {
                 className="certificate-item"
                 onClick={() => handleCertificateClick(certificate.url)}
               >
-                <div className="certificate-logo">{certificate.icon}</div> {/* Use React Icon here */}
+                <div className="certificate-logo">{certificate.icon}</div> 
                 <h3>{certificate.name}</h3>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Modal for displaying the certificate */}
+       
         {isModalOpen && (
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
               <button className="modal-close" onClick={closeModal}>
-                <AiOutlineClose size={24} color="#fff" />  {/* React Icon Close Button */}
+                <AiOutlineClose size={24} color="#fff" />  
               </button>
               <iframe
                 src={selectedCertificate}
