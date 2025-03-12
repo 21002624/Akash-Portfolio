@@ -49,7 +49,7 @@ const Certificate = () => {
                 onClick={() => handleCertificateClick(certificate.url)}
               >
                 <div className="certificate-logo">{certificate.icon}</div> 
-                <h3>{certificate.name}</h3>
+                <h>{certificate.name}</h>
               </div>
             ))}
           </div>
@@ -60,7 +60,7 @@ const Certificate = () => {
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
               <button className="modal-close" onClick={closeModal}>
-                <AiOutlineClose size={24} color="#fff" />  
+                <AiOutlineClose size={24} color="#fff" />  {/* React Icon Close Button */}
               </button>
               <iframe
                 src={selectedCertificate}
